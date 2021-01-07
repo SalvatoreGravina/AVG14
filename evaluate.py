@@ -5,8 +5,7 @@ import argparse
 from TFRecord_tools import get_dataset
 
 parser = argparse.ArgumentParser()
-parser.add_argument('--model', dest='model_name', type=str, help="path del modello su cui effettaure l'eval")
-parser.add_argument('--groundtruth', dest='groundtruth', type=str, help='path del .csv contenente la groundtruth')
+parser.add_argument('--model', dest='model_name', type=str, help="nome del modello su cui effettaure l'eval")
 args = parser.parse_args()
 
 FILENAMES_TEST = tf.io.gfile.glob(os.getcwd() + '/data/TFRecord/eval/*.tfrecord')
@@ -25,6 +24,8 @@ for image, label in test_dataset:
     true_label = label.numpy().argmax()
     mae += abs(predicted_label-true_label)
     i += 1
+
+print('number of evaluated samples: ',i)
 
 mae = mae/i
 
