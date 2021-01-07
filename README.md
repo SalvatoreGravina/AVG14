@@ -24,7 +24,7 @@ dlib==19.18.0
 
 Utilizzare il file <code>requirements.txt</code> per automatizzare tale processo
 
-Inoltre è necessario scaricare il seguente [file](https://drive.google.com/file/d/15QzXtkRjU8ydZLYnMY2ZuJvdoLlj432u/view?usp=sharing) da estrarre nella root della repository, quest'operazione è necessaria per l'utilizzo degli script quindi non cambiare la struttura delle cartelle
+Inoltre è necessario scaricare il seguente [archivio](https://drive.google.com/file/d/15QzXtkRjU8ydZLYnMY2ZuJvdoLlj432u/view?usp=sharing) da estrarre nella root della repository, quest'operazione è necessaria per l'utilizzo degli script quindi non cambiare la struttura delle cartelle
 
 # Utilizzo
 
