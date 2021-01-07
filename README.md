@@ -24,9 +24,13 @@ dlib==19.18.0
 
 Utilizzare il file <code>requirements.txt</code> per automatizzare tale processo
 
+Inoltre è necessario scaricare il seguente [file](https://drive.google.com/file/d/12J_HeaLw4DXmDObXvZH5ljZ06xEKnX8T/view?usp=sharing) da estrarre nella root della repository, quest'operazione è necessaria per l'utilizzo degli script quindi non cambiare la struttura delle cartelle
+
 # Utilizzo
+
 ## Creazione TFRecord
-per creare nuovi TFRecord, necessari per l'addestramento, utilizzare lo script <code>TFRecord.py</code> messo a disposizione
+
+Per creare nuovi TFRecord, necessari per l'addestramento, utilizzare lo script <code>TFRecord.py</code> messo a disposizione
 
 ```bash
 python TFRecord.py --record_name 'tfrecord_file.tfrecord' --csv_name 'train.detected.csv' --face_align True
@@ -41,5 +45,7 @@ python train.py --net 'resnet50' --dataset 'balanced' --batch 128 --resume 'trai
 
 ## Evaluate
 
+Per calcolare le prestazioni di un modello, utilizzare lo script <code>evaluate.py</code> specificando il modello su cui effettuare l'operazione e la groundtruth.
 
-
+```bash
+python evaluate.py --model 'train_resnet50.h5' --groundtruth 'train.age_detected.csv'
