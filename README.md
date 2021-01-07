@@ -15,10 +15,10 @@ Le seguenti librerie sono necessarie per l'utilizzo di questa repository
 ```bash
 keras_applications==1.0.8
 tensorflow==2.4
-numpy==1.19.4
 keras==2.4.3
 opencv-python==4.1.2.30
 tqdm==4.46.1
+numpy==1.19.3
 dlib==19.18.0
 ```
 
