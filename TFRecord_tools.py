@@ -7,7 +7,7 @@ import cv2
 import os
 
 AUTOTUNE = tf.data.experimental.AUTOTUNE
-path_predictor = os.getcwd() + '/data/shape_predictor_5_face_landmarks'
+path_predictor = os.getcwd() + '/data/shape_predictor_5_face_landmarks.dat'
 """Funzioni per scrittura TFRecord"""
 
 
