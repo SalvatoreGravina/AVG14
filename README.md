@@ -24,7 +24,7 @@ dlib==19.18.0
 
 Utilizzare il file <code>requirements.txt</code> per automatizzare tale processo
 
-Inoltre, per l'utilizzo ottimale della repository, è necessario scaricare il seguente [archivio](https://drive.google.com/file/d/1ZncStdg9eh9SPXUaMeFWLxYiHTJKXbEJ/view?usp=sharing) da estrarre nella root della repository contenente le cartelle mancanti (si raccomanda di non modificare la struttura), i pesi della rete addestrata, il .csv con le prediction sul test set e il file utile per effettuare la face align.
+Inoltre, per l'utilizzo ottimale della repository, è necessario scaricare il seguente [archivio](https://drive.google.com/file/d/1KyCOh8WuJ2s67ds3Suw-saeLMAJP2WHV/view?usp=sharing) da estrarre nella root della repository contenente le cartelle mancanti (si raccomanda di non modificare la struttura), i pesi della rete addestrata, il .csv con le prediction sul test set e il file utile per effettuare la face align.
 
 # Utilizzo
 
