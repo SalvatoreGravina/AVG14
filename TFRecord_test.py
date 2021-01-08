@@ -19,7 +19,7 @@ csv_root = os.getcwd() + '/data/csv/'
 csv_path = os.path.join(csv_root,args.csv_path)
 
 path_dataset = os.getcwd() + '/data/dataset/test/'
-path_predictor = os.getcwd() + '/data/shape_predictor_5_face_landmarks'
+path_predictor = os.getcwd() + '/data/shape_predictor_5_face_landmarks.dat'
 path_tfrecord_root = os.getcwd() + '/data/TFRecord/predict/'
 path_tfrecord = os.path.join(path_tfrecord_root, args.record_name)
 
